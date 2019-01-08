@@ -1,0 +1,52 @@
+.locationList{
+  height: 85vh;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+  .locationList{
+    height: 37vh;
+    margin-bottom: 5px
+  }
+  .details{
+    height: 50vh !important;
+  }
+}
+
+.forecast-title{
+  color: #fff;
+  text-align: center;
+}
+
+.forecast-content{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.forecast-extended-content{
+    overflow: auto;
+}
+
+.div-weatherdata{
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(201, 201, 202);
+  align-items: center;
+  padding-left: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.div-weatherdata-2{
+  width: 80%;
+}
+
+.loader-extended{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
