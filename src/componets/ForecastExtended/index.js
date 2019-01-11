@@ -17,6 +17,13 @@ class ForecastExtended extends Component {
     this.handleUpdateAPI()
   }
 
+  componentWillReceiveProps(nextProps){
+    if(nextProps.city !== this.props.city){
+      this.setState({forecastData: null})
+      this.handleUpdateAPI()
+    }
+  }
+
   handleUpdateAPI = ()=>{
     console.log('handleUpdateAPI-forecast')
     const {city} = this.props
