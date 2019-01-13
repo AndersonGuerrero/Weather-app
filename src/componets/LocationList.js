@@ -8,7 +8,7 @@ const LocationList = ({cities, onWeatherLocationClick, citySelected})=>{
     <WeatherLocation
       citySelected={citySelected}
       onWeatherLocationClick={()=>onWeatherLocationClick(city)}
-      key={city} city={city}/>)
+      key={city.key} city={city.name} data={city.data}/>)
   return (
     <div className="locationList">
       {listCities}
