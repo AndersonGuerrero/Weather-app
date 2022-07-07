@@ -6,7 +6,7 @@
     "@material-ui/core": "^1.4.3",
     "convert-units": "^2.3.4",
     "lodash.topairs": "^4.3.0",
-    "moment": "^2.23.0",
+    "moment": "^2.29.4",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.2",
